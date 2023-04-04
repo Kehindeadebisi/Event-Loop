@@ -10,11 +10,21 @@ Event loop isa built in mechanism that enables asynchronous programing. It handl
 - close - Event loop closes and the process ends if there are no more timers or input/output calls, otherwise the loop continues
 
 
-3: List some best practices in server-side code development
+### 3: List some best practices in server-side code development
+- Focus on code quality
+- Use ES6+ and Async/Await to make your code more readable
+- Keep code small by grouping similar functions into modules
+- Proper Error Handling
 
-4: What is NPM5: How do you initialize a package in npm
 
-6: How do you run a script in the package.json ?
+### 4: What is NPM5: How do you initialize a package in npm?
+NPM is a tool for managing project dependencies and a website hosting for third party packages that can be used for projects
+
+npm init initializes a package in npm
+
+
+### 6: How do you run a script in the package.json ?
+npm run scrptName
 
 7: Initialize a package if your choice, give it a name and install the following npm packages to it, express, mongoose, joi.
 
